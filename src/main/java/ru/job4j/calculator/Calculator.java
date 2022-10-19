@@ -1,6 +1,4 @@
 package ru.job4j.calculator;
-
-
 public class Calculator {
 
     @SuppressWarnings("checkstyle:EmptyLineSeparator")
@@ -22,10 +20,9 @@ public class Calculator {
         size = 100;
         size = size - 5;
         System.out.println(size);
-        Calculator.plus(100,  500);
-        Calculator.plus(4,  2);
-        Calculator.plus(3,  5);
-
+        Calculator.plus(100, 500);
+        Calculator.plus(4, 2);
+        Calculator.plus(3, 5);
 
         String name = "Job4j";
         int age = 6;
@@ -39,6 +36,7 @@ public class Calculator {
     int result = first + second;
     System.out.println(result);
     }
+
     public class ArgMethod {
 
         public static void hello(String name, int age) {
