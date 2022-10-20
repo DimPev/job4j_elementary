@@ -16,14 +16,11 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
-        int size = 10;
-        size = 100;
-        size = size - 5;
+
         System.out.println(size);
         Calculator.plus(100, 500);
         Calculator.plus(4, 2);
         Calculator.plus(3, 5);
-
         String name = "Job4j";
         int age = 6;
         ArgMethod.hello(name, age);
