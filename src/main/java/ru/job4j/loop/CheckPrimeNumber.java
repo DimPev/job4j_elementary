@@ -8,7 +8,7 @@ public class CheckPrimeNumber {
             if (number % index == 0) {
                 stop += 1;
                 prime = true;
-            } else if (stop == 1) {
+            } else if (stop >= 1) {
                 prime = false;
                 break;
             }
