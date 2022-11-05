@@ -4,8 +4,7 @@ public class ArrayChar {
 
     public static boolean startsWith(char[] word, char[] pref) {
         boolean result = true;
-        char[] maxLength = pref.length > word.length ? word : pref;
-        for (int i = 0; i < maxLength.length; i++) {
+        for (int i = 0; i < pref.length; i++) {
             if (word[i] != pref[i]) {
                 result = false;
                 break;
