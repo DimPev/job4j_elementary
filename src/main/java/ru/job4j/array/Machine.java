@@ -9,7 +9,6 @@ public class Machine {
         int size = 0;
         int change = money - price;
         for (int i = 0; i < coins.length; i++) {
-            //   for (int j = 0; j < coins.length; j++) {
             while (change > 0) {
                 if (change < coins[i]) {
                     break;
