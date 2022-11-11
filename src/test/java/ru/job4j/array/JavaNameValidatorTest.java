@@ -6,7 +6,6 @@ import static ru.job4j.array.JavaNameValidator.*;
 
 public class JavaNameValidatorTest {
 
-
     @Test
     void whenEmptyNameInvalid() {
         assertThat(isNameValid("")).isFalse();
