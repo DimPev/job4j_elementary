@@ -3,7 +3,6 @@ package ru.job4j.array;
 public class JavaNameValidator {
 
     public static boolean isNameValid(String name) {
-
         char[] isText = name.toCharArray();
         for (int i = 0; i < isText.length; i++) {
             int code = name.codePointAt(i);
