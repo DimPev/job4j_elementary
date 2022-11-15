@@ -5,7 +5,6 @@ import static java.lang.Character.isDigit;
 
 public class JavaNameValidator {
     public static boolean isNameValid(String name) {
-        boolean rls = true;
         char[] isText = name.toCharArray();
         if (!name.isEmpty() && !isUpperCase(name.codePointAt(0))) {
             for (int i = 1; i < name.length(); i++) {
@@ -16,6 +15,3 @@ public class JavaNameValidator {
         return false;
     }
 }
-
-
-
