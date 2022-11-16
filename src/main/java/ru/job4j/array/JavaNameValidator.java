@@ -10,7 +10,7 @@ public class JavaNameValidator {
             for (int i = 1; i < name.length(); i++) {
                 System.out.println(i);
                 int code = name.codePointAt(i);
-                if (!Character.isDigit(name.codePointAt(i)) && isNotSpecialSymbol(code) && isNotUpperLatinLetter(code) && isNotLowerLatinLetter(code)) {
+                if (!Character.isDigit(code) && isNotSpecialSymbol(code) && isNotUpperLatinLetter(code) && isNotLowerLatinLetter(code)) {
                     rls = false;
                     break;
                 }
